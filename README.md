@@ -7,7 +7,7 @@
 <h1 align="center">CalcPlus</h1>
 
 <p>
-
+CalcPlus is a web application aimed at solving 3 types of calculations: Simple numerical calculations, currency exchange and measurement conversion.
 </p>
 
 ---
