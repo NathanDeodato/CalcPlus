@@ -1,0 +1,241 @@
+/* config-font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto&display=swap');
+
+/* config-reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* config-body */
+body {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+}
+
+/* config-header */
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+.Container-Header {
+    width: 40vw;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #363636;
+    border-radius: 0px 0px 0px 30px;
+}
+
+.Box-TitleNT {
+    width: 20vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title-NT {
+    font-size: 1.2rem;;
+}
+
+.Box-Icons {
+    width: 20vw;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderIcon {
+    width: 2.5vw;
+}
+
+/* config-main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container-Calculadora {
+    width: 50vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Box-Title {
+    width: 25vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Box-Visor {
+    width: 25vw;
+    height: 10vh;
+
+    border-radius: 20px;
+    background-color: #363636;
+}
+
+.Box-Select {
+    width: 20vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Input-Moeda {
+    width: 9vw;
+    height: 6vh;
+
+    border: none;
+    border-radius: 10px;
+    background-color: #C0C0C0;
+}
+
+.Box-Teclas {
+    width: 20vw;
+    height: 55vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Box-CalcOne {
+    display: flex;
+    justify-content: space-around;
+}
+.Box-CalcTwo {
+    display: flex;
+    justify-content: space-around;
+}
+.Box-CalcThree {
+    display: flex;
+    justify-content: space-around;
+}
+.Box-CalcFour {
+    display: flex;
+    justify-content: space-around;
+}
+.Box-CalcFive {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Button-Calc {
+    width: 5vw;
+    height: 8vh;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #C0C0C0;
+}
+.Button-Calc:hover {
+    cursor: pointer;
+}
+
+.Button-CalcDEL {
+    width: 7vw;
+    height: 8vh;
+
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #C0C0C0;
+}
+.Button-CalcDEL:hover {
+    cursor: pointer;
+}
+
+.Button-CalcConv {
+    width: 10vw;
+    height: 8vh;
+
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #C0C0C0;
+}
+.Button-CalcConv:hover {
+    cursor: pointer;
+}
+
+.Container-CalcMore {
+    width: 50vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Box-CalcMoe {
+    width: 15vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    background-color: #363636;
+}
+
+
+.Box-CalcMed {
+    width: 15vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    background-color: #363636;
+}
+
+.Box-P {
+    width: 10vw;
+}
+
+.Text-P {
+    padding-top: 2vh;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Button-More {
+    width: 15vw;
+    height: 5vh;
+    
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #C0C0C0;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+}
+.Button-More:hover {
+    cursor: pointer;
+}
