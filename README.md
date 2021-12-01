@@ -25,7 +25,9 @@
 
 <h2  align="center">Project</h2>
 
-<img src="Assets/IMG/GreenWeb - Login.png" alt="PageWeb-01">
+<img src="Assets/CalcPlusOne.png" alt="PageWeb-01">
+<img src="Assets/CalcPlusTwo.png" alt="PageWeb-02">
+<img src="Assets/CalcPlusThree.png" alt="PageWeb-03">
 
 ---
 
