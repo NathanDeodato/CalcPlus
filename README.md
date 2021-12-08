@@ -13,7 +13,7 @@ CalcPlus is a web application aimed at solving 3 types of calculations: Simple n
 ---
 
 <h2 align="center">Design</h2>
-<a href="https://www.figma.com/file/nobCS2SLahYGvkgW8JZbgK/CalcPlus?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Design&message=Figma&color=00FA9A&style=for-the-badge&logo=GHOST" alt="ntShield-Designe"></a>
+<a href="https://www.figma.com/file/nobCS2SLahYGvkgW8JZbgK/CalcPlus?node-id=0%3A1"><img src="https://img.shields.io/static/v1?label=Design&message=Figma&color=00FA9A&style=for-the-badge&logo=FIGMA" alt="ntShield-Designe"></a>
 
 ---
 
