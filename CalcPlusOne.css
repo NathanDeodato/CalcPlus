@@ -1,7 +1,9 @@
 /* config-font */
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Roboto&display=swap');
 
 /* config-reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,59 +11,23 @@
 }
 
 /* config-body */
+
 body {
     color: white;
-    font-family: 'Outfit', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #1c1c1c;
-}
-
-/* config-header */
-header {
-    display: flex;
-    justify-content: flex-end;
-}
-.Container-Header {
-    width: 40vw;
-    height: 10vh;
-
-    display: flex;
-    align-items: center;
-
-    background-color: #363636;
-    border-radius: 0px 0px 0px 30px;
-}
-
-.Box-TitleNT {
-    width: 20vw;
-    height: 10vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Title-NT {
-    font-size: 1.2rem;;
-}
-
-.Box-Icons {
-    width: 20vw;
-    height: 10vh;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.HeaderIcon {
-    width: 2.5vw;
+    background-color: #6495ED;
 }
 
 /* config-main */
+
 main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
+    margin-top: 5vh;
 }
+
 .Container-Calculadora {
     width: 50vw;
     height: 90vh;
@@ -73,7 +39,7 @@ main {
 }
 
 .Box-Title {
-    width: 30vw;
+    width: 25vw;
     height: 5vh;
 
     display: flex;
@@ -82,15 +48,15 @@ main {
 }
 
 .Box-Visor {
-    width: 30vw;
-    height: 15vh;
+    width: 25vw;
+    height: 13vh;
 
-    border-radius: 20px;
-    background-color: #363636;
+    border-radius: 15px;
+    background-color: #F0F8FF;
 }
 
 .Box-Teclas {
-    width: 30vw;
+    width: 25vw;
     height: 55vh;
 
     display: flex;
@@ -102,34 +68,41 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
 .Box-CalcTwo {
     display: flex;
     justify-content: space-around;
 }
+
 .Box-CalcThree {
     display: flex;
     justify-content: space-around;
 }
+
 .Box-CalcFour {
     display: flex;
     justify-content: space-around;
 }
+
 .Box-CalcFive {
     display: flex;
     justify-content: space-around;
 }
 
 .Button-Calc {
-    width: 5vw;
+    width: 4.2vw;
     height: 8vh;
 
-    font-size: 1.2rem;
+    font-size: 0.9em;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: #C0C0C0;
+    background-color: #F0F8FF;
 }
+
 .Button-Calc:hover {
+    background-color: #dfefff;
+
     cursor: pointer;
 }
 
@@ -137,13 +110,16 @@ main {
     width: 9vw;
     height: 8vh;
 
-    font-size: 1rem;
+    font-size: 0.9em;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: #C0C0C0;
+    background-color: #F0F8FF;
 }
+
 .Button-CalcDEL:hover {
+    background-color: #dfefff;
+
     cursor: pointer;
 }
 
@@ -151,13 +127,16 @@ main {
     width: 9vw;
     height: 8vh;
 
-    font-size: 1rem;
+    font-size: 0.9em;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: #C0C0C0;
+    background-color: #F0F8FF;
 }
+
 .Button-CalcMore:hover {
+    background-color: #dfefff;
+
     cursor: pointer;
 }
 
@@ -165,14 +144,17 @@ main {
     width: 9vw;
     height: 8vh;
 
-    font-size: 1rem;
+    font-size: 0.9em;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: #C0C0C0;
+    background-color: #F0F8FF;
 
 }
+
 .Button-CalcLess:hover {
+    background-color: #dfefff;
+
     cursor: pointer;
 }
 
@@ -180,102 +162,140 @@ main {
     width: 9vw;
     height: 8vh;
 
-    font-size: 1rem;
+    font-size: 0.9em;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: #C0C0C0;
+    background-color: #F0F8FF;
 }
+
 .Button-CalcX:hover {
-    cursor: pointer;
-}
+    background-color: #dfefff;
 
-.Button-CalcPorc {
-    width: 13vw;
-    height: 8vh;
-
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    background-color: #C0C0C0;
-}
-.Button-CalcPorc:hover {
     cursor: pointer;
 }
 
 .Button-CalcIgual {
-    width: 14vw;
+    width: 24vw;
     height: 8vh;
 
-    font-size: 1rem;
+    font-size: 1.5em;
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: #C0C0C0;
+    background-color: #F0F8FF;
 }
+
 .Button-CalcIgual:hover {
+    background-color: #dfefff;
+
     cursor: pointer;
 }
 
-.Container-CalcMore {
+.main-containercalcmore {
     width: 50vw;
     height: 40vh;
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.Box-CalcMoe {
-    width: 15vw;
-    height: 15vh;
+.main-othercontainercalcmore {
+    width: 35vw;
+    height: 40vh;
 
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-between;
 
-    border-radius: 10px;
-    background-color: #363636;
-}
-
-
-.Box-CalcMed {
-    width: 15vw;
-    height: 15vh;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    border-radius: 10px;
-    background-color: #363636;
-}
-
-.Box-P {
-    width: 10vw;
-}
-
-.Text-P {
-    padding-top: 2vh;
-    font-size: 0.9rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.Button-More {
-    width: 15vw;
-    height: 5vh;
-    
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: #C0C0C0;
+    color: black;
+    background-color: #F0F8FF;
     border: none;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 15px;
 }
-.Button-More:hover {
-    cursor: pointer;
+
+.main-boxcalcmoe {
+    width: 50%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.main-boxcalcmed {
+    width: 50%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-titleboxmore {
+    width: 50%;
+
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.main-boxonebuttonmore {
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-boxtwobuttonmore {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-onebuttonacess {
+    width: 90%;
+    height: 100%;
+
+    font-size: 0.9em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #6495ED;
+}
+
+.main-onebuttonacess:hover {
+    background-color: #5f8ee6;
+
+    cursor: pointer
+}
+
+.main-twobuttonacess {
+    width: 90%;
+    height: 100%;
+
+    font-size: 0.9em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #6495ED;
+}
+
+.main-twobuttonacess:hover {
+    background-color: #5f8ee6;
+
+    cursor: pointer
+}
+
+.main-subbutton {
+    color: black;
+    text-decoration: none;
+}
+
+/* config-responsive */
+
+
