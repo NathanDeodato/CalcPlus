@@ -19,7 +19,7 @@ CalcPlus is a web application aimed at solving 3 types of calculations: Simple n
 
 <h2  align="center">Application demo</h2>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9137484e-7f15-47ec-ac11-b023068e9ed7/deploy-status)](https://app.netlify.com/sites/calcplus-demo/deploys)
+<a href="https://calcplus-demo.netlify.app/"><img src="https://img.shields.io/static/v1?label=Netlify&message=Demo&color=0e1e25&style=for-the-badge&logo=NETLIFY" alt="ntShield"></a>
 
 ---
 
