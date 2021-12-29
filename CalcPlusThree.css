@@ -38,6 +38,20 @@ main {
     justify-content: space-around;
 }
 
+.main-buttonhome {
+    width: 3%;
+
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.main-buttonhome:hover {
+    width: 3.5%;
+
+    top: 1.5%;
+}
+
 .Box-Title {
     width: 25vw;
     height: 5vh;

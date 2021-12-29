@@ -130,4 +130,144 @@ body {
 
 /* config-responsive */
 
+/* responsive-laptop */
 
+@media (max-width: 1024px) {
+    
+    /* config-main */
+    .main-title {
+        font-size: 1.2em;
+    }
+
+    .main-description {
+        font-size: 0.75em;
+    }
+
+    .main-buttonstart {
+        font-size: 0.7em;
+    }
+
+}
+
+/* responsive-tablet  */
+
+@media (max-width: 768px) {
+    
+    /* config-main */
+
+    .main-container {
+        width: 90vw;
+    }
+    
+    .main-boxoneselect {
+        width: 30%;
+    }
+    
+    .main-boxtwoselect {
+        width: 30%;
+    }
+    
+    .main-boxthreeselect {
+        width: 30%;
+    }
+    
+    .main-title {
+        font-size: 1.2em;
+    }
+
+    .main-description {
+        font-size: 0.70em;
+    }
+
+    .main-buttonstart {
+        font-size: 0.65em;
+    }
+
+}
+
+/* responsive-mobile G  */
+
+@media (max-width: 425px) {
+    
+    /* config-main */
+
+    .main-container {
+        width: 75vw;
+        height: 140vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .main-boxoneselect {
+        width: 60%;
+        height: 100%;
+
+        margin-top: 0;
+    }
+    
+    .main-boxtwoselect {
+        width: 60%;
+        height: 100%;
+
+        margin-top: 3%;
+    }
+    
+    .main-boxthreeselect {
+        width: 60%;
+        height: 100%;
+
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+
+    .main-title {
+        font-size: 0.8em;
+    }
+
+    .main-description {
+        font-size: 0.65em;
+    }
+
+    .main-buttonstart {
+        border-radius: 5px;
+    }
+
+}
+
+/* responsive-mobile M */
+
+@media (max-width: 375px) {
+    
+    /* config-main */
+
+    .main-description {
+        font-size: 0.55em;
+    }
+
+}
+
+/* responsive-mobile P */
+
+@media (max-width: 320px) {
+    
+    /* config-main */
+
+    .main-boxoneselect {
+        width: 70%;
+    }
+    
+    .main-boxtwoselect {
+        width: 70%;
+    }
+    
+    .main-boxthreeselect {
+        width: 70%;
+    }
+
+    .main-description {
+        font-size: 0.50em;
+    }
+
+}
