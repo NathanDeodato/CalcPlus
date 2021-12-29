@@ -424,47 +424,70 @@ main {
     
     /* config-main */
 
+    .main-buttonhome {
+        width: 6%;
+    }
+
     main {
-        width: 75vw;
+        width: 100vw;
         height: 140vh;
 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        align-items: center;
     }
 
-    .main-boxoneselect {
-        width: 60%;
-        height: 100%;
+    .Container-Calculadora {
+        width: 70vw;
+    }
 
-        margin-top: 0;
+    .Box-Title {
+        width: 60vw;
+    }
+
+    .Box-Visor {
+        width: 60vw;
+    }
+
+    .Box-Teclas {
+        width: 60vw;
+    }
+
+    .Button-Calc {
+        width: 10vw;
     }
     
-    .main-boxtwoselect {
-        width: 60%;
-        height: 100%;
-
-        margin-top: 3%;
+    .Button-CalcDEL {
+        width: 20vw;
     }
     
-    .main-boxthreeselect {
-        width: 60%;
-        height: 100%;
-
-        margin-top: 3%;
-        margin-bottom: 15%;
+    .Button-CalcMore {
+        width: 20vw;
+    }
+    
+    .Button-CalcLess {
+        width: 20vw;
+    }
+    
+    .Button-CalcX {
+        width: 20vw;
+    }
+    
+    .Button-CalcIgual {
+        width: 58vw;
     }
 
-    .main-title {
-        font-size: 0.8em;
+    .main-containercalcmore {
+        width: 60vw;
     }
 
-    .main-description {
-        font-size: 0.65em;
+    .main-othercontainercalcmore {
+        width: 60vw;
     }
 
-    .main-buttonstart {
-        border-radius: 5px;
+    .main-titleboxmore {
+        font-size: 0.85em;
     }
 
 }
@@ -475,8 +498,52 @@ main {
     
     /* config-main */
 
-    .main-description {
-        font-size: 0.55em;
+    .Box-Title {
+        width: 65vw;
+    }
+
+    .Box-Visor {
+        width: 65vw;
+    }
+
+    .Box-Teclas {
+        width: 65vw;
+    }
+
+    .Button-Calc {
+        width: 11vw;
+    }
+    
+    .Button-CalcDEL {
+        width: 21vw;
+    }
+    
+    .Button-CalcMore {
+        width: 21vw;
+    }
+    
+    .Button-CalcLess {
+        width: 21vw;
+    }
+    
+    .Button-CalcX {
+        width: 21vw;
+    }
+    
+    .Button-CalcIgual {
+        width: 64vw;
+    }
+
+    .main-containercalcmore {
+        width: 65vw;
+    }
+
+    .main-othercontainercalcmore {
+        width: 65vw;
+    }
+
+    .main-titleboxmore {
+        font-size: 0.9em;
     }
 
 }
@@ -487,21 +554,12 @@ main {
     
     /* config-main */
 
-    .main-boxoneselect {
-        width: 70%;
-    }
-    
-    .main-boxtwoselect {
-        width: 70%;
-    }
-    
-    .main-boxthreeselect {
-        width: 70%;
+    .Button-Calc {
+        width: 12vw;
     }
 
-    .main-description {
-        font-size: 0.50em;
+    .main-titleboxmore {
+        font-size: 0.75em;
     }
 
 }
-

@@ -279,4 +279,260 @@ main {
 
 /* config-responsive */
 
+/* responsive-laptop */
 
+@media (max-width: 1024px) {
+    
+    /* config-main */
+
+    .Button-Calc {
+        font-size: 0.65em;
+    }
+    
+    .Button-CalcDEL {
+        font-size: 0.65em;
+    }
+
+    .Button-CalcConv {
+        font-size: 0.65em;
+    }
+
+    .main-titleboxmore {
+        font-size: 0.9em;
+    }
+
+    .main-onebuttonacess {
+        font-size: 0.7em;
+    }
+
+    .main-twobuttonacess {
+        font-size: 0.7em;
+    }
+
+}
+
+/* responsive-tablet  */
+
+@media (max-width: 768px) {
+    
+    /* config-main */
+
+    .Box-Visor {
+        width: 30vw;
+        
+        border-radius: 10px;
+    }
+
+    .Box-Select {
+        width: 30vw;
+    }
+
+    .Box-Teclas {
+        width: 25vw;
+        height: 45vh;
+    }
+
+    .Input-Moeda {
+        width: 14vw;
+    }
+
+    .Button-Calc {
+        width: 5.5vw;
+        
+        font-size: 0.6em;
+    }
+    
+    .Button-CalcDEL {
+        width: 9vw;
+        
+        font-size: 0.6em;
+    }
+
+    .Button-CalcConv {
+        width: 11vw;
+
+        font-size: 0.6em;
+    }
+    
+    .main-containercalcmore {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-othercontainercalcmore {
+        width: 45vw;
+        height: 30vh;
+    }
+
+    .main-titleboxmore {
+        font-size: 0.85em;
+    }
+
+    .main-onebuttonacess {
+        font-size: 0.65em;
+    }
+
+    .main-twobuttonacess {
+        font-size: 0.65em;
+    }
+
+}
+
+/* responsive-mobile G  */
+
+@media (max-width: 425px) {
+    
+    /* config-main */
+
+    .main-buttonhome {
+        width: 6%;
+    }
+
+    main {
+        width: 100vw;
+        height: 140vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Container-Calculadora {
+        width: 70vw;
+    }
+
+    .Box-Title {
+        width: 60vw;
+    }
+
+    .Box-Visor {
+        width: 60vw;
+    }
+
+    .Box-Select {
+        width: 60vw;
+    }
+
+    .Box-Teclas {
+        width: 45vw;
+    }
+
+    .Input-Moeda {
+        width: 28vw;
+    }
+
+    .Button-Calc {
+        width: 10vw;
+    }
+    
+    .Button-CalcDEL {
+        width: 15vw;
+    }
+    
+    .Button-CalcConv {
+        width: 20vw;
+    }
+
+    .main-containercalcmore {
+        width: 60vw;
+    }
+
+    .main-othercontainercalcmore {
+        width: 60vw;
+
+    }
+
+    .main-titleboxmore {
+        width: 60%;
+        
+        font-size: 0.7em;
+    }
+
+}
+
+/* responsive-mobile M */
+
+@media (max-width: 375px) {
+    
+    /* config-main */
+
+    .Button-Calc {
+        width: 11vw;
+
+        font-size: 0.55em;
+    }
+    
+    .Button-CalcDEL {
+        width: 16vw;
+
+        font-size: 0.55em;
+    }
+
+    .Button-CalcConv {
+        width: 21vw;
+
+        font-size: 0.55em;
+    }
+
+    .main-containercalcmore {
+        width: 65vw;
+    }
+
+    .main-othercontainercalcmore {
+        width: 65vw;
+    }
+
+    .main-titleboxmore {
+        font-size: 0.75em;
+    }
+
+}
+
+/* responsive-mobile P */
+
+@media (max-width: 320px) {
+    
+    /* config-main */
+
+    .Box-Title {
+        width: 65vw;
+    }
+
+    .Box-Visor {
+        width: 65vw;
+    }
+
+    .Box-Select {
+        width: 65vw;
+    }
+
+    .Box-Teclas {
+        width: 50vw;
+    }
+
+    .Button-Calc {
+        width: 13vw;
+    }
+
+    .Button-CalcDEL {
+        width: 18vw;
+
+        font-size: 0.55em;
+    }
+
+    .Button-CalcConv {
+        width: 24vw;
+
+        font-size: 0.55em;
+    }
+
+    .main-othercontainercalcmore {
+        height: 25vh;
+    }
+
+    .main-titleboxmore {
+        font-size: 0.6em;
+    }
+
+}
