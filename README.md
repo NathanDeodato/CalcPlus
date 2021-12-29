@@ -25,6 +25,7 @@ CalcPlus is a web application aimed at solving 3 types of calculations: Simple n
 
 <h2  align="center">Project</h2>
 
+<img src="Assets/CalcPlusStart.png" alt="PageWeb-00">
 <img src="Assets/CalcPlusOne.png" alt="PageWeb-01">
 <img src="Assets/CalcPlusTwo.png" alt="PageWeb-02">
 <img src="Assets/CalcPlusThree.png" alt="PageWeb-03">
@@ -44,7 +45,6 @@ CalcPlus is a web application aimed at solving 3 types of calculations: Simple n
 
 - [] Funcionalidade do visor
 - [] Funcionalidades das calculadoras
-- [] Responsividade
 
 ---
 
